@@ -1,0 +1,57 @@
+.main1 {
+    background-image:url('../images/backgroundpulsa.png');
+    background-size:cover;top: -20px;margin: 0px;
+    background-repeat: no-repeat;
+    scroll-behavior: smooth;
+} 
+.Caption h1{
+    font-weight:bold;
+    width:60%;font-size: 43px;
+    text-shadow: 4px 5px rgba(0,0,0,.1);
+}
+.Caption  {
+    margin-left:40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Caption p {
+    font-size:28px;width:50%;
+}
+.main-header {
+    margin-top: 30px;opacity: .7;
+    background-color: aqua;
+}
+.main-header h1 {
+    padding: 2px;
+    font-size: 35px;font-weight: 700;
+}
+
+.caption-header h2 {
+font-size: 24px;
+font-weight: 500;
+}
+.container-header-active {
+   margin: 10px;border-radius: 7px;
+    background-color: whitesmoke;z-index: 10;
+}
+.container-header {
+    margin: 10px;border-radius: 7px;
+    
+ }
+.caption-header p{
+    font-size: 15px;
+    text-align: justify;
+    margin: 5px;
+}
+@media (max-width:670px){
+    .Caption {
+        margin-left: 15px;
+    }
+    .Caption h1 {
+        width:70%;
+        font-size:25px;
+    }
+    .Caption p {
+        width:60%;
+        font-size:16px;
+    }
+}
